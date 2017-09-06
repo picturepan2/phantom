@@ -1,0 +1,55 @@
+{
+  "name": "phantom",
+  "description": "A responsive and open-source news blog theme for Ghost.",
+  "demo": "https://livesino.net",
+  "version": "0.1.0",
+  "engines": {
+    "ghost": ">=1.2.0"
+  },
+  "license": "MIT",
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.jpg",
+    "mobile": "assets/screenshot-mobile.jpg"
+  },
+  "author": {
+    "name": "Yan Zhu",
+    "email": "picturepan2@hotmail.com",
+    "url": "https://twitter.com/picturepan2"
+  },
+  "gpm": {
+    "type": "theme",
+    "categories": [
+      "Minimal",
+      "Magazine",
+      "News"
+    ]
+  },
+  "keywords": [
+    "ghost",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/picturepan2/phantom.git"
+  },
+  "bugs": "https://github.com/picturepan2/phantom/issues",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "latest"
+  },
+  "browserslist": [
+    "last 4 Chrome versions",
+    "Edge >= 12",
+    "Firefox ESR",
+    "last 4 Safari versions",
+    "last 4 Opera versions",
+    "Explorer >= 10"
+  ],
+  "config": {
+    "posts_per_page": 12
+  }
+}
