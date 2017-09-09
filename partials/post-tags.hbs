@@ -1,0 +1,11 @@
+<div class="post-full-tags">
+  {{#if tags}}
+    <ul class="tags">
+    {{#foreach tags}}
+      <li>
+        <a href="{{url}}" title="{{name}}" class="label tag tag-{{id}} {{slug}}">{{name}}</a>
+      </li>  
+    {{/foreach}}
+    </ul>
+  {{/if}}
+</div>

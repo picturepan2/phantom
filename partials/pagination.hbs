@@ -1,0 +1,11 @@
+<ul class="pagination" role="navigation">
+  <li class="page-item{{#unless prev}} disabled{{/unless}}">
+    <a class="newer-posts" href="{{page_url prev}}">&larr; Newer Posts</a>
+  </li>
+  <li class="page-item">
+    <span>Page {{page}} of {{pages}}</span>
+  </li>
+  <li class="page-item{{#unless next}} disabled{{/unless}}">
+    <a class="older-posts" href="{{page_url next}}">Older Posts &rarr;</a>
+  </li>
+</ul>
