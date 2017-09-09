@@ -210,6 +210,22 @@ a:focus {
   color: #0145dd;
 }
 
+.phantom-body .empty {
+  padding: 2rem;
+}
+
+.phantom-body .empty .empty-title {
+  color: #b2b6bc;
+  font-size: 10vw;
+  font-weight: 700;
+}
+
+.phantom-body .empty .empty-subtitle {
+  color: #b2b6bc;
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
 .phantom-post {
   padding-bottom: 2rem;
   padding-top: 2rem;

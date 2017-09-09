@@ -218,6 +218,22 @@ a {
       }
     }
   }
+
+  .empty {
+    padding: 2rem;
+    
+    .empty-title {
+      color: lighten($gray-color, 5%);
+      font-size: 10vw;
+      font-weight: 700;
+    }
+
+    .empty-subtitle {
+      color: lighten($gray-color, 5%);
+      font-size: 1.4rem;
+      margin-bottom: 1.4rem;
+    }
+  }
 }
 
 // Post
