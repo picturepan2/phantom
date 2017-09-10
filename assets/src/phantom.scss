@@ -118,15 +118,15 @@ a {
   .meta-stats,
   .meta-location {
     display: inline-block;
-    height: .8rem;
-    line-height: .8rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
   }
 
   .social-link {
     display: inline-block;
-    height: .8rem;
+    height: 1.2rem;
     margin: 0 .3rem;
-    width: .8rem;
+    width: 1.2rem;
   }
 
   .divider-dot {
@@ -220,16 +220,19 @@ a {
   }
 
   .empty {
-    padding: 2rem;
-    
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+
     .empty-title {
-      color: lighten($gray-color, 5%);
+      color: lighten($gray-color, 15%);
       font-size: 10vw;
       font-weight: 700;
+      line-height: 1;
+      margin: 0;
     }
 
     .empty-subtitle {
-      color: lighten($gray-color, 5%);
+      color: lighten($gray-color, 0%);
       font-size: 1.4rem;
       margin-bottom: 1.4rem;
     }
